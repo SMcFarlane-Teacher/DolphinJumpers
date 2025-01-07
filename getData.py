@@ -9,6 +9,8 @@ for x in df.index:
         df.drop(x, inplace = True)
         print(f"Replaced...{x}")
 
+# Changed???
+
 # Drop this label as I don't need it for my data
 df = df.drop(columns=['Statistic Label'])
 
